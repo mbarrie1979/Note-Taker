@@ -1,12 +1,17 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text",
-        "id": 1
+        "title": "New Note 1",
+        "text": "Give beijos to Tati",
+        "id": "0200b586-8063-4456-bc25-2ef9d27980ea"
     },
     {
-        "title": "Get Scarlett",
-        "text": "at 3pm",
-        "id": "a4abc01f-236c-433d-9779-cdecca6899c3"
+        "title": "Note 2",
+        "text": "GIve beijos to Scarlett and Tati",
+        "id": "fbbcc37c-b993-4659-9099-86674961669f"
+    },
+    {
+        "title": "Groceries",
+        "text": "Goto Publix and get fooooood",
+        "id": "e76c7730-52bf-41b5-a273-671ada24cf29"
     }
 ]
