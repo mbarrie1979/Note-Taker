@@ -4,7 +4,8 @@ let noteText;
 let saveNoteBtn;
 let newNoteBtn;
 let noteList;
-
+console.log('connected')
+// console.log(window.location.pathname)
 if (window.location.pathname === '/notes') {
   noteForm = document.querySelector('.note-form');
   noteTitle = document.querySelector('.note-title');
@@ -56,6 +57,7 @@ const deleteNote = (id) =>
 const renderActiveNote = () => {
   hide(saveNoteBtn);
   hide(clearBtn);
+  // console.log(activeNote)
 
   if (activeNote.id) {
     show(newNoteBtn);
