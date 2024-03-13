@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "title": "Goto the Grocery Store",
+        "text": "Get Veggies and Cereal",
+        "id": "96fde8cb-227e-40cf-91a4-d6529f154742"
+    },
+    {
+        "title": "Work on Project ",
+        "text": "Install Heroku and watch deployment tutorial ",
+        "id": "c0b8a6b7-ea86-45e3-a1a1-1ebc0d50083d"
+    },
+    {
+        "title": "Make Dinner",
+        "text": "Prepare marinade and roast veggies",
+        "id": "52af191d-e9bb-460c-992f-f6fe26e02fde"
+    }
+]
