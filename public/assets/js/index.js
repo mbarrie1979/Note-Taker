@@ -79,11 +79,17 @@ const handleNoteSave = () => {
     title: noteTitle.value,
     text: noteText.value
   };
+
   saveNote(newNote).then(() => {
     getAndRenderNotes();
     renderActiveNote();
+    
+    // Clear the noteTitle and noteText fields after saving
+    noteTitle.value = '';
+    noteText.value = '';
   });
 };
+
 
 // Delete the clicked note
 const handleNoteDelete = (e) => {
