@@ -22,7 +22,7 @@ app.get('/notes', (req, res) =>
     res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-app.use('*', (req, res) => {
+app.get('*', (req, res) => {
     res.status(404).send('404 Not Found');
 });
 
