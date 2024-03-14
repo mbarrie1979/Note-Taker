@@ -14,18 +14,16 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api', api);
 
 
-app.get('/', (req, res) =>
-    res.sendFile(path.join(__dirname, '/public/index.html'))
-);
+
 
 app.get('/notes', (req, res) =>
     res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-app.get('*', (req, res) => {
-    res.status(404).send('404 Not Found');
-});
 
+app.get('*', (req, res) =>
+    res.sendFile(path.join(__dirname, '/public/index.html'))
+);
 
 app.listen(PORT, (err) =>
     err ? console.error(err) : console.log(`listening to port ${PORT}`));
