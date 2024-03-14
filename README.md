@@ -27,9 +27,16 @@ Upon launching the Note Taker application, users are presented with a landing pa
 
 ## Screenshots
 
-![Landing Page](path/to/landing_page_screenshot.png)
+![Screenshot 1](./readme_screenshots/screenshot_1.png)
 
-![Notes Page](path/to/notes_page_screenshot.png)
+![Screenshot 2](./readme_screenshots/screenshot_2.png)
+
+![Screenshot 3](./readme_screenshots/screenshot_3.png)
+
+![Screenshot 4](./readme_screenshots/screenshot_4.png)
+
+![Screenshot 5](./readme_screenshots/screenshot_5.png)
+
 
 Add screenshots of your application in action here. Replace `path/to/screenshot.png` with the actual file path to your screenshot images.
 
