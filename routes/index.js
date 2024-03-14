@@ -5,6 +5,7 @@ const { readAndAppend, readFromFile, writeToFile } = require('../helpers/fsUtils
 
 const app = express();
 
+// displays notes already in db
 app.get('/notes', (req, res) => {
     readFromFile('./db/db.json').then((data) => {
         // console.log(req.headers)
@@ -13,7 +14,7 @@ app.get('/notes', (req, res) => {
     );
 });
 
-
+// updates and displays notes in db
 app.post('/notes', (req, res) => {
     console.log(req.body);
 
@@ -40,7 +41,7 @@ app.post('/notes', (req, res) => {
     }
 });
 
-
+// deletes and updates notes in db
 app.delete('/notes/:note_id', (req, res) => {
     const noteId = req.params.note_id;
     console.log(noteId)
