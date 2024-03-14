@@ -25,6 +25,8 @@ To install the application locally, follow these steps:
 
 Upon launching the Note Taker application, users are presented with a landing page with a link to the notes page. Here, users can view existing notes, add new notes, and delete notes as needed. Each note requires a title and text content, which can be saved using the "Save Note" button. Users can view any note by clicking on it in the list displayed on the left-hand side of the page.
 
+- Click [`Here`](https://note-taker-app-mark-barrie-ce98b5447988.herokuapp.com/) to use the Note Taker app!
+
 ## Screenshots
 
 ![Screenshot 1](./readme_screenshots/screenshot_1.png)
@@ -38,14 +40,13 @@ Upon launching the Note Taker application, users are presented with a landing pa
 ![Screenshot 5](./readme_screenshots/screenshot_5.png)
 
 
-Add screenshots of your application in action here. Replace `path/to/screenshot.png` with the actual file path to your screenshot images.
 
 ## Credits
 
 - Mark Barrie: Backend Development
-- Starter Code: [Add link here](#)
+- Starter Code: [Add link here](https://github.com/coding-boot-camp/miniature-eureka)
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+none
 
