@@ -44,7 +44,8 @@ Upon launching the Note Taker application, users are presented with a landing pa
 ## Credits
 
 - Mark Barrie: Backend Development
-- Starter Code: [Add link here](https://github.com/coding-boot-camp/miniature-eureka)
+
+- [Starter Code](https://github.com/coding-boot-camp/miniature-eureka)
 
 ## License
 
